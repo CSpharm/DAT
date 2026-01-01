@@ -65,11 +65,6 @@ XGB - 0.649 - Effective
 1. GNN 的圖卷積結構確實捕捉到了 Morgan Fingerprints（位元陣列）所遺失的分子拓樸資訊。
 2. Final Test AUC = **0.7885**
 
-# Stage IV - 模型可解釋性分析 (XAI)
-1. 在 RDKit 中，Morgan Fingerprint 是透過掃描原子周圍半徑（Radius）內的環境生成的。
-2. 我們可以透過 bitInfo 參數來「逆向工程」，找出特定 Bit 對應的分子片段。
-3. 模型優劣對比：為什麼 GNN 更具潛力？
-
 # Conclusion
 We compared traditional models including RF, XGBoost and GNN for their performance 
 to predict compound bioactivities against the dopamine transporter (DAT).
