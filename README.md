@@ -65,6 +65,9 @@ XGB - 0.649 - Effective
 1. GNN 的圖卷積結構確實捕捉到了 Morgan Fingerprints（位元陣列）所遺失的分子拓樸資訊。
 2. Final Test AUC = **0.7885**
 
+# Stage IV - Cross Validation for GNN, RF, and XGBoost
+1. 做這三種模型的Cross Validation。
+
 # Conclusion
 We compared traditional models including RF, XGBoost and GNN for their performance 
 to predict compound bioactivities against the dopamine transporter (DAT).
